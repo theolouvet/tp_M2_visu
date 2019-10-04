@@ -1,0 +1,28 @@
+INCLUDEPATH = 
+
+OBJ = junk/
+SRC = src/
+H = header/
+
+1 = main
+2 = Volume
+3 = Texture
+
+EXEC = visu
+
+INCLUDEPATH = $${H} 
+
+HEADERS += $${H}$${2}.hpp \
+           $${H}$${3}.hpp \
+
+
+SOURCES += $${SRC}$${1}.cpp \
+           $${SRC}$${2}.cpp \
+           $${SRC}$${3}.cpp \
+
+
+TARGET = ./$${EXEC}
+
+OBJECTS_DIR = $${OBJ}
+CONFIG += release warn_on console
+LIBS +=

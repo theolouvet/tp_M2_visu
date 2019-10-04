@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/fs03/share/users/theo.louvet/home/Documents/tp_M2_visu/src/Texture.cpp
+fstream
+-
+Texture.hpp
+-
+
+/fs03/share/users/theo.louvet/home/Documents/tp_M2_visu/src/Volume.cpp
+Volume.hpp
+-
+fstream
+-
+cmath
+-
+
+/fs03/share/users/theo.louvet/home/Documents/tp_M2_visu/src/main.cpp
+cmath
+-
+iostream
+-
+sstream
+-
+Volume.hpp
+-
+Texture.hpp
+-
+
+header/Texture.hpp
+iostream
+-
+vector
+-
+
+header/Volume.hpp
+iostream
+-
+vector
+-
+

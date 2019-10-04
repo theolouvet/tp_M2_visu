@@ -1,0 +1,33 @@
+
+========================================
+
+
+to compile:
+
+
+method 1: using qmake (cross plateform) :
+
+$ qmake build_makefile.pro
+$ make
+$ ./visu
+
+
+method 2: pre-made linux makefile:
+
+$ make -f makefile_linux
+$ ./visu
+
+
+method 3: using cmake (cross plateform: can build MS Visual Studio project): 
+
+$ cmake CMakeLists.txt
+$ make (or make VERBOSE=1 if problem)
+$ ./visu
+
+
+
+========================================
+
+Complete Doxygen documentation in 
+doxygen_doc/html/index
+

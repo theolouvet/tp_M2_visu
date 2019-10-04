@@ -1,0 +1,67 @@
+
+RELEASE = -O3
+
+OBJ = junk/
+JUNK = junk/
+
+SRC = src/
+H = header/
+
+
+CFLAGS = -pipe -Wall -Wextra
+INCPATH = -I${H}
+
+GPP = g++ 
+EXEC = visu
+
+LINKLIB =  -lm -lGL -lGLU -lglut 
+
+
+F1=main
+F2=Volume
+F3=Texture
+
+
+EVERYTHING = $(OBJ)$(F1).o $(OBJ)$(F2).o $(OBJ)$(F3).o
+
+
+all: $(EXEC)
+
+
+$(EXEC): $(EVERYTHING)
+	@echo 
+	@echo ================ [LINKAGE ...]  ================ 
+	@echo
+
+	$(GPP) $(EVERYTHING) -o $(EXEC) $(LINKLIB)
+	@echo
+	@echo [OK]
+	@echo 
+	@echo ================ [progam compiled succesfully] ================ 
+	@echo
+
+
+$(OBJ)$(F1).o: $(SRC)$(F1).cpp
+	@echo --------- build [$(1)] ----------
+	$(GPP) -c  $(CFLAGS) $(INCPATH) $(SRC)$(F1).cpp -o $(OBJ)$(F1).o
+	@echo OK [$(F1)]
+	@echo
+
+$(OBJ)$(F2).o: $(SRC)$(F2).cpp $(H)$(F2).hpp
+	@echo --------- build [$(F2)] ----------
+	$(GPP) -c  $(CFLAGS) $(INCPATH) $(SRC)$(F2).cpp -o $(OBJ)$(F2).o
+	@echo OK [$(F2)]
+	@echo
+
+$(OBJ)$(F3).o: $(SRC)$(F3).cpp $(H)$(F3).hpp
+	@echo --------- build [$(F3)] ----------
+	$(GPP) -c  $(CFLAGS) $(INCPATH) $(SRC)$(F3).cpp -o $(OBJ)$(F3).o
+	@echo OK [$(F3)]
+	@echo
+
+clean:
+	rm -f *~ *.o $(OBJ)*.o $(SRC)*~ $(H)*~ *# $(H)*# $(SRC)*# 
+	@echo
+	@echo cleaning done
+	@echo
+

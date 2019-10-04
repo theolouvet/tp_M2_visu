@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" href="$classVolume.html#a076a4c561a472ed4d1b67a40726553ae" title="get the value at position (kx,ky,kz)" alt="" coords="147,5,269,35"/>
+<area shape="rect" href="$classVolume.html#a79e20f86a60bbfcc8591a879f3c15089" title="get size_x" alt="" coords="153,59,263,88"/>
+<area shape="rect" href="$classVolume.html#a68ce66a09ce2add38eedce5de80e953a" title="get size_y" alt="" coords="153,112,263,141"/>
+<area shape="rect" href="$classVolume.html#a5a84efa67ccd3045666d442165d577c2" title="get size_z" alt="" coords="153,165,263,195"/>
+</map>

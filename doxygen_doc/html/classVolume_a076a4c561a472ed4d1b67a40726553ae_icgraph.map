@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" href="$classVolume.html#a15746f36fa4f854e9878e55e889975f9" title="internal tri&#45;linear interpolation of the value at position (x,y,z). Return 0 if out&#45;of&#45;bounds..." alt="" coords="177,5,356,35"/>
+<area shape="rect" href="$classVolume.html#ac6b93cc611c6b80cbf7affb491667f4b" title="Apply MIP projection along the x direction (return b&amp;w texture of size Ny*Nz)..." alt="" coords="220,59,313,88"/>
+<area shape="rect" href="$classVolume.html#a9a2b1139b8d52a6801b652edb5529f83" title="Apply classical ray&#45;casting projection along the x direction (return color texture..." alt="" coords="205,112,328,141"/>
+<area shape="rect" href="$classVolume.html#a4b9b06d829ccb0c6e56826e7cfb08cc4" title="extract a slice of data in plane x=kx. Return a texture of size Ny*Nz (access using..." alt="" coords="211,165,323,195"/>
+<area shape="rect" href="$classVolume.html#aff5b904a9d91e48a716c56847887a387" title="extract a slice of data in plane y=ky. Return a texture of size Nx*Nz (access using..." alt="" coords="211,219,323,248"/>
+<area shape="rect" href="$classVolume.html#a1fecab3b1c6b2cecdf93da158a5d606a" title="extract a slice of data in plane z=kz. Return a texture of size Nx*Ny (access using..." alt="" coords="211,272,323,301"/>
+<area shape="rect" href="$classVolume.html#a0bfbfea89e4553958e0e6a2a17625b0a" title="smoothing" alt="" coords="203,325,331,355"/>
+<area shape="rect" href="$classVolume.html#abe7c89614f1bbb90d428357f895f9443" title="get the value at any position (x,y,z) using intepolation" alt="" coords="405,5,533,35"/>
+<area shape="rect" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="445,192,493,221"/>
+</map>

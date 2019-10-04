@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" href="$classVolume.html#a15746f36fa4f854e9878e55e889975f9" title="internal tri&#45;linear interpolation of the value at position (x,y,z). Return 0 if out&#45;of&#45;bounds..." alt="" coords="167,5,345,35"/>
+<area shape="rect" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="435,189,483,219"/>
+<area shape="rect" href="$classVolume.html#ac6b93cc611c6b80cbf7affb491667f4b" title="Apply MIP projection along the x direction (return b&amp;w texture of size Ny*Nz)..." alt="" coords="209,109,303,139"/>
+<area shape="rect" href="$classVolume.html#a9a2b1139b8d52a6801b652edb5529f83" title="Apply classical ray&#45;casting projection along the x direction (return color texture..." alt="" coords="195,163,317,192"/>
+<area shape="rect" href="$classVolume.html#aa82f53ebff84416a89efeea5906e70a0" title="resample data to fit into a cube of a given size" alt="" coords="167,216,345,245"/>
+<area shape="rect" href="$classVolume.html#ad34a285208122672c51f8ef3ee81ec17" title="apply rotation to the data by a fiven angle (radian) around the z direction" alt="" coords="193,269,319,299"/>
+<area shape="rect" href="$classVolume.html#a0bfbfea89e4553958e0e6a2a17625b0a" title="smoothing" alt="" coords="192,323,320,352"/>
+<area shape="rect" href="$classVolume.html#abe7c89614f1bbb90d428357f895f9443" title="get the value at any position (x,y,z) using intepolation" alt="" coords="395,5,523,35"/>
+</map>
